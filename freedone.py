@@ -1,5 +1,5 @@
 import os
-
+print "hello"
 obj_list = os.popen("ls *.nii | sed -e 's/\..*$//'")
 str_list = obj_list.read()
 
